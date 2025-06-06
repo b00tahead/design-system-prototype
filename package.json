@@ -4,13 +4,8 @@
   "workspaces": [
     "packages/*"
   ],
+  "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "^4.33.1",
-    "lerna": "^8.2.2",
-    "style-dictionary": "^5.0.0"
-  },
-  "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "lerna": "^8.2.2"
   }
 }
